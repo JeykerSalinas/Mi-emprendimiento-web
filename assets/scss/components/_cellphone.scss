@@ -1,0 +1,12 @@
+.cellphone {
+  &__symbol {
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+  }
+  &__gear {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: spin 3s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+  }
+}

@@ -1,0 +1,26 @@
+@keyframes slide {
+  50% {
+    transform: translatex(150px);
+    -webkit-transform: translatex(150px);
+    -moz-transform: translatex(150px);
+    -ms-transform: translatex(150px);
+    -o-transform: translatex(150px);
+  }
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
