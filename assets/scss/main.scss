@@ -14,17 +14,24 @@
 @import
   'base/base',
   'base/fonts',
-  'base/typography',
-  'base/helpers';
+  'base/typography';
+
 
 // 4. Layout-related sections
 @import
+  'layout/grid',
   'layout/header',
-  'layout/footer';
-
-// 5. Components
+  'layout/footer',
+  'layout/navbar',
+  'layout/course',
+  'layout/hero',
+  'layout/program';
+  // 5. Components
 @import
-  'components/button';
+  'components/buttons',
+  'components/cards',
+  'components/form';
+
 
 // 6. Page-specific styles
 @import

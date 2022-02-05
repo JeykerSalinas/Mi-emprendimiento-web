@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Emprendimiento Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/css.css" />
+  </head>
+  <body class="container">
+    <nav class="navbar">
+      <img src="./assets/img/logo.svg" alt="" class="navbar__brand" />
+      <button class="navbar__sandwich" onclick="toggle()">
+        <i class="fa fa-bars navbar__toggle"></i>
+      </button>
+    </nav>
+    <section class="hero">
+      <img src="./assets/img/desarrolloweb2021t.svg" alt="" />
+    </section>
+    <section class="program">
+      <div class="program__top card">
+        <img src="./assets/img/html-y-cssb-.jpg" alt="" />
+        <h2>HTML y CSS para principiantes</h2>
+        <p>
+          HTML y CSS son dos herramientas importantes para dar inicio en el
+          mundo del desarrollo web. Por lo tanto, en este curso aprenderás todo
+          sobre HTML y CSS, desde lo más básico hasta un nivel intermedio,
+          logrando desarrollar tu primera página web responsiva, sin la
+          necesidad de aplicar librerías externas para CSS.-
+        </p>
+        <h3>Instructor:Manuel González</h3>
+        <div class="card__social-media">
+          <p><i class="far fa-thumbs-up"></i>1</p>
+          <p><i class="far fa-comments"></i>9</p>
+          <p><i class="far fa-eye"></i>9</p>
+          <p><i class="fas fa-share-alt"></i>0</p>
+        </div>
+      </div>
+      <div class="program__bottom card">
+        <img src="./assets/img/sass.png" alt="" />
+        <h2>Estilos con SASS</h2>
+        <p>
+          SASS es una herramienta importante hoy en día para todo desarrollador
+          web, ya que permite crear estilos mas ordenados, eficientes y con
+          menos líneas de código. Por ello, en este curso aprenderás todo lo
+          necesario para crear hojas de estilos de sintaxis de SCSS,
+          implementando técnicas propias de SASS.
+        </p>
+        <h3>Instructor:Manuel González</h3>
+        <div class="card__social-media">
+          <p><i class="far fa-thumbs-up"></i>1</p>
+          <p><i class="far fa-comments"></i>9</p>
+          <p><i class="far fa-eye"></i>8</p>
+          <p><i class="fas fa-share-alt"></i>5</p>
+        </div>
+      </div>
+    </section>
+    <section class="course">
+      <img
+        src="./assets/img/web-development.png"
+        alt=""
+        class="course__header"
+      />
+      <h2 class="course__title">CURSOS 2020 LTDA</h2>
+      <div class="course__social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+      </div>
+      <p class="course__text">
+        Cursos 2020 Ltda, es una empresa especialista en capacitaciones de
+        personal en Desarrollo Web. Partiendo desde lo más básico de HTML y CSS,
+        hasta lo más complejo de SASS y JavaScript. Igualmente se ofrecen cursos
+        más especializados para BackEnd, implementación de frameworks para el
+        frontEnd, entre otros.
+      </p>
+      <p class="course__banner">Más Cursos</p>
+      <div class="course__list">
+        <ul>
+          <li><a href="# ">Analítica Web (3)</a></li>
+          <li><a href="# ">Deseño Web (4)</a></li>
+          <li><a href="# ">Desarrollo BackEnd (9)</a></li>
+          <li><a href="# ">Seguridad Informática (14)</a></li>
+          <li><a href="# ">Social Media (7)</a></li>
+          <li><a href="# ">SEO (8)</a></li>
+          <li><a href="# ">UI/UX (3)</a></li>
+          <li><a href="# ">JavaScript (5)</a></li>
+          <li><a href="# ">VueJs (1)</a></li>
+        </ul>
+      </div>
+      <img src="./assets/img/web.svg" alt="" class="course__svg" />
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">&#169;2021 | Todos los derechos reservados</p>
+      <div class="footer__nav">
+        <a href="#">Legal</a>
+        <a href="#">Sobre Anuncios</a>
+        <input type="text" placeholder="e-mail" class="form" />
+        <button class="btn">Enviar</button>
+      </div>
+    </footer>
+  </body>
+</html>

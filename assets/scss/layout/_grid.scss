@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+@include medium-view{
+        grid-template-rows: repeat(4,auto);
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+}
+
+.navbar, .hero, .footer{
+@include medium-view{
+        grid-column: 1/3;
+    }
+}
+

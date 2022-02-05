@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+  padding: 4px 3px;
+  border-radius: 5px;
+  background-color: #FFAF6D;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 50px;
+  &:hover {
+    background-color: $color-white;
+  }
+  
+}
+
+.navbar__sandwich{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
