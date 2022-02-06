@@ -506,7 +506,7 @@ body {
   border: 1px solid black;
 }
 
-.btn {
+.btns {
   padding: 4px 3px;
   border-radius: 5px;
   background-color: #FFAF6D;
@@ -516,7 +516,7 @@ body {
   -o-border-radius: 5px;
   width: 50px;
 }
-.btn:hover {
+.btns:hover {
   background-color: #ffffff;
 }
 
